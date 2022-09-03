@@ -43,3 +43,15 @@ span {
 footer a {
   color: #e63946;
 }
+
+/* example of adjacent selector below  */
+
+h2 + button {
+  font-size: 20px;
+}
+
+/* direct descendant selector example below, uses >  */
+
+footer > a {
+  color: #457b9d;
+}
