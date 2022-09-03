@@ -55,3 +55,9 @@ h2 + button {
 footer > a {
   color: #457b9d;
 }
+
+/* example of attribute selector below  */
+
+a[href*="google"] {
+  color: magenta;
+}
