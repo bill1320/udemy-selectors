@@ -38,6 +38,8 @@ span {
 
 .post a {
   color: #457b9d;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 footer a {
@@ -57,7 +59,27 @@ footer > a {
 }
 
 /* example of attribute selector below  */
+/* input[type="text"]  */
 
 a[href*="google"] {
   color: magenta;
+}
+
+/* example of pseudo classes below  */
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
 }
