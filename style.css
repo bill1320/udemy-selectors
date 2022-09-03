@@ -33,3 +33,13 @@ span {
   color: #f1faee;
   font-size: 16px;
 }
+
+/* descendant selector- select all <a>'s that are nested inside an <li> */
+
+.post a {
+  color: #457b9d;
+}
+
+footer a {
+  color: #e63946;
+}
